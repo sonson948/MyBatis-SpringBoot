@@ -24,11 +24,11 @@ public class Userservice {
 //		return userMapper.update(userMapper);
 //	}
 	
-	public int delete(int id) {
-		return userMapper.delete(id);
-	}
-	
-	public User selectUserById(int id) {
-		return userMapper.selectUserById(id);
-	}
+//	public int delete(int id) { 
+//		return userMapper.delete(id);
+//	}
+//	
+//	public User selectUserById(int id) {
+//		return userMapper.selectUserById(id);
+//	}
 }

@@ -87,12 +87,16 @@ body{ background-color: yellow;}
 .container .info span .fa {
   color: #EF3B3A;
 }
+.down  {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
 body {
   background: yellow; /* fallback for old browsers */
   background: -webkit-linear-gradient(right, #76b852, #8DC26F);
   background: -moz-linear-gradient(right, #76b852, #8DC26F);
   background: -o-linear-gradient(right, #76b852, #8DC26F);
-  background: linear-gradient(to left, gray, white);
+  background: linear-gradient(to right, #E2DEDE, white);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;   
